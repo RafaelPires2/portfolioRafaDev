@@ -1,6 +1,9 @@
 
 /* ============ HEADER =============== */
-
+.header{
+    display: flex;
+    justify-content:center;
+}
 .navigation{
     background: rgba(10,10,25,0.7);
     backdrop-filter: blur(24px);
@@ -8,11 +11,10 @@
     align-items: center;
     justify-content: space-between;
 
-    width: 100%;
+    width: 102.4rem;
     padding-inline: .8rem;
 
     position: fixed;
-
 }
 .navigation ul{
     display: flex;
@@ -21,7 +23,6 @@
 
     font-size: 1.8rem;
     height: 8rem;
-    
 }
 .navigation a{
     color: var(--color-paragraph);
@@ -32,17 +33,118 @@
     font-size: 3rem;
 }
 
-
-
-
-
-
-
-
 /* ============ HOME =============== */
 #home{
     background-color: var(--background-primary);
     height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home .wrapper{
+    display: flex;
+    justify-content: center;
+    padding-inline: 5rem;
+}
+#home .col-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+#home .col-b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+.col-a h2{
+    font-size: 2.4rem;
+    color: var(--white);
+    font-weight: 400;
+    text-align: start;
+}
+.col-a h1{
+    font-size: 5.6rem;
+    color: var(--white);
+    font-weight: 500;
+}
+/* .text-animate::after{
+    content: "|";
+    margin-left: .8rem;
+    color:var(--text-point);
+    animation: blink 1s infinite;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: blink;     
+} */
+/* .box-typing{
+    
+} */
+.box-typing{
+    display: inline-flex;
+}
+.box-typing .dynamic-txts{
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txts li{
+    font-size: 2.4rem;
+    position: relative;
+    animation: slide 6s steps(4) infinite;
+    
+  
+}
+
+.dynamic-txts li span{
+    position: relative;
+ 
+
+}
+.dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-primary);
+    border-left: 2px solid red;
+    animation: typing 2.5s steps(10) infinite;
+  
+}
+@keyframes slide{
+    100%{
+        top: -360px;
+    }
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -30px 0 30px;
+    }
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+.icon{
+    width: 50rem;
 }
 
 /* ============ QUEM SOU =============== */
