@@ -1,2 +1,34 @@
 /* Variaveis e styles global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Saira', sans-serif;
+}
+ul, li, a{
+    color: var(--white);
+    list-style: none;
+    text-decoration: none;
+    text-decoration-color: none;
+    
+}
+:root {
+    --white:#ffff;
+    --background-primary:#080713;
+    --background-secundary:#0b0a17;
+    
+    --border-one:#e51d37;
+    --border-two:#00a3ff;
 
+    --text-point:#6610f2;
+    --color-paragraph:#b0b0b0;
+    
+
+    --padding:9.6rem;
+    font-size: 62.5%;
+}
+.wrapper{
+    width: 102.4rem; 
+}
