@@ -122,6 +122,7 @@
  }
  #about .col-b span{
    color: var(--text-point);
+   font-size: 6rem;
 }
 #about .col-b h2{
     font-size: 2rem;
@@ -140,3 +141,96 @@
     transform:scaleX(-1)
 }
 /* ============ PROJETOS =============== */
+#projects{
+    background-color: var(--background-secundary);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#projects .wrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-inline: 5rem;
+}
+.box-txt{
+    margin-bottom: 4.8rem;
+}
+.box-txt h1{
+    color: var(--white);
+    font-size: 4rem;
+}
+.box-txt span{
+    color: var(--text-point);
+    font-size: 6rem;
+}
+.box-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 30%;
+    min-height: 30rem;
+  
+    border:1px solid var(--border-one);
+    padding: 3.2rem;
+    margin: .8rem;
+}
+.project h2{
+    color: var(--white);
+    font-size: 2.4rem;
+}
+.project p{
+    color: var(--color-paragraph);
+    font-size: 1.8rem;
+    margin-block: 2.4rem;
+}
+.project a{
+    color: var(--border-one);
+    font-size: 1.8rem;
+}
+
+
+.card2{
+    border:1px solid var(--border-two);
+}
+.card2 h2{
+    color: var(--white);
+    font-size: 2.4rem;
+}
+.card2 p{
+    color: var(--color-paragraph);
+    font-size: 1.8rem;
+    margin-block: 2.4rem;
+}
+.card2 a{
+    color: var(--border-two);
+    font-size: 1.8rem;
+}
+
+
+.card3{
+    border:1px solid var(--border-two);
+}
+.card3 h2{
+    color: var(--white);
+    font-size: 2.4rem;
+}
+.card3 p{
+    color: var(--color-paragraph);
+    font-size: 1.8rem;
+    margin-block: 2.4rem;
+}
+.card3 a{
+    color: var(--border-two);
+    font-size: 1.8rem;
+    visibility: hidden;
+  
+}
