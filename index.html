@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
 
 
     <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;700&display=swap" rel="stylesheet" />
@@ -21,13 +22,15 @@
         <header class="header">
             <div class="wrapper">
                 <nav class="navigation">
-                    <h2 class="logo">Rafa Dev</h2>
-                    <ul>
-                        <li><a href="#about">Quem sou</a></li>
-                        <li><a href="#projects">Projetos</a></li>
-                        <li><a href="#services">Serviços</a></li>
-                        <li><a href="#skills">Conhecimentos</a></li>
-                    </ul>
+                    <div class="content-nav">
+                        <h2 class="logo">Rafa Dev</h2>
+                        <ul>
+                            <li><a href="#about">Quem sou</a></li>
+                            <li><a href="#projects">Projetos</a></li>
+                            <li><a href="#services">Serviços</a></li>
+                            <li><a href="#skills">Conhecimentos</a></li>
+                        </ul>
+                    </div>
                 </nav>
 
             </div>
@@ -38,19 +41,14 @@
             <div class="wrapper">
 
                 <div class="col-a">
-                    <h2>👋 Olá, eu sou </h2>
+                    <h2><span class="emoji-hand">👋</span> Olá, eu sou </h2>
                     <h1>Rafa Dev.</h1>
                     <div class="box-typing">
-
-                        <ul class="dynamic-txts">
-                            <li><span>Front-end Developer..</span></li>
-                            <li><span>Freelancer</span></li>
-                            <li><span>Youtuber</span></li>
-                            <li><span>Empreendedor</span></li>
-                        </ul>
+                        <h2><span class="auto-type"></span></h2>
+        
 
                     </div>
-                    <a class="btn" href="http://instagram.com" target="_blank">Instagram</a>
+                    <a id="btn-instagram"class="btn" href="http://instagram.com" target="_blank">Instagram</a>
                 </div>
 
                 <div class="col-b">
@@ -87,5 +85,10 @@
         </footer>
         
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/typed.js"></script>
 </body>
 </html>
