@@ -42,4 +42,10 @@ ul, li, a{
     align-items: center;   
     justify-content: center;
     font-size: 1.8rem;
+    cursor:pointer;
+    
+}
+.btn:hover{
+    transition: .5s;
+    transform: scalex(1.1);
 }

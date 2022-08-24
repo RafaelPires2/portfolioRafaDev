@@ -33,6 +33,7 @@
     font-size: 1.8rem;
     height: 8rem;
 }
+
 .navigation a{
     color: var(--color-paragraph);
     padding-left: 4.8rem;
@@ -46,7 +47,7 @@
 /* ============ HOME =============== */
 #home{
     background-color: var(--background-primary);
-    height: 100vh;
+    height: 90vh;
 
     display: flex;
     justify-content: center;
@@ -93,5 +94,49 @@
 }
 
 /* ============ QUEM SOU =============== */
+#about{
+    background-color: var(--background-secundary);
+    height: 60vh;
 
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about .wrapper{
+    display: flex;
+    justify-content: center;
+    padding-inline: 5rem;
+}
+#about .col-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    width: 60%;
+}
+#about .col-b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ #about .col-b span{
+   color: var(--text-point);
+}
+#about .col-b h2{
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: 400;
+    text-align: start;
+}
+#about .col-b h1{
+    font-size: 4rem;
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+#about .icon{
+    width: 40rem;
+    transform:scaleX(-1)
+}
+/* ============ PROJETOS =============== */
