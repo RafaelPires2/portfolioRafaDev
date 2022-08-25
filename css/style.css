@@ -18,6 +18,7 @@
     padding-inline: .8rem;
 
     position: fixed;
+    z-index: 100;
 }
 .content-nav{
     display: flex;
@@ -38,6 +39,11 @@
     color: var(--color-paragraph);
     padding-left: 4.8rem;
 }
+
+.navigation a:hover{
+    color:var(--white);
+}
+
 .logo{
     color:var(--white);
     font-size: 3rem;
@@ -89,9 +95,7 @@
     font-weight: 500;
 }
 
-.icon{
-    width: 50rem;
-}
+
 
 /* ============ QUEM SOU =============== */
 #about{
@@ -182,6 +186,7 @@
     border:1px solid var(--border-one);
     padding: 3.2rem;
     margin: .8rem;
+    margin-bottom: 2rem;
 }
 .project h2{
     color: var(--white);
@@ -196,8 +201,6 @@
     color: var(--border-one);
     font-size: 1.8rem;
 }
-
-
 .card2{
     border:1px solid var(--border-two);
 }
@@ -214,10 +217,12 @@
     color: var(--border-two);
     font-size: 1.8rem;
 }
-
-
 .card3{
-    border:1px solid var(--border-two);
+    border:1px solid var(--background-secundary);
+}
+.card3:hover{
+    border:1px solid var(--text-point);
+    transition: .4s;
 }
 .card3 h2{
     color: var(--white);
@@ -232,5 +237,61 @@
     color: var(--border-two);
     font-size: 1.8rem;
     visibility: hidden;
-  
 }
+.box-txt a{
+    color: var(--text-point);
+    font-size: 2rem;
+    font-weight: 400;
+}
+/* ============ PROJETOS =============== */
+#services{
+    background-color: var(--background-secundary);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#services .wrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-inline: 5rem;
+}
+.box-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 30%;
+    min-height: 35rem;
+  
+    background-color: var(--background-primary);
+    border:1px solid var(--background-primary);
+    padding: 3.2rem;
+    padding-bottom: 0;
+    margin: .8rem;
+    margin-bottom: 2rem;
+}
+.services h2{
+    color: var(--white);
+    font-size: 2.4rem;
+}
+.services p{
+    color: var(--color-paragraph);
+    font-size: 1.8rem;
+    margin-block: 2.4rem;
+}
+.services a{
+    color: var(--border-one);
+    font-size: 1.8rem;
+}
+.box-img{
+    height: 9rem;
+}
+

@@ -49,3 +49,10 @@ ul, li, a{
     transition: .5s;
     transform: scalex(1.1);
 }
+.icon{
+    width: 50rem;
+}
+.icon-services{
+    width: 7rem;
+    margin-bottom: 3rem;
+}
