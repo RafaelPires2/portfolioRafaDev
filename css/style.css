@@ -146,8 +146,8 @@
 }
 /* ============ PROJETOS =============== */
 #projects{
-    background-color: var(--background-secundary);
-    height: 60vh;
+    background-color: var(--background-primary);
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,7 +243,7 @@
     font-size: 2rem;
     font-weight: 400;
 }
-/* ============ PROJETOS =============== */
+/* ============ SERVICES =============== */
 #services{
     background-color: var(--background-secundary);
     height: 60vh;
@@ -294,4 +294,59 @@
 .box-img{
     height: 9rem;
 }
+/* ============ SKILLS =============== */
+
+#skills{
+    background-color: var(--background-primary);
+    height: 60vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#skills .wrapper{
+    display: flex;
+    justify-content: center;
+    padding-inline: 5rem;
+}
+#skills .col-a{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 60%;
+}
+#skills .col-a h1{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+#skills .col-a span{
+   color: var(--text-point);
+   font-size: 7rem;
+}
+#skills .col-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ #skills .col-a p{
+    font-size: 1.8rem;
+    color: var(--color-paragraph);
+}
+.box-skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.25rem;
+    height: 13rem;
+    background:var(--background-secundary);
+    margin: 0.8rem;
+}
+.cards-skills img{
+    width: 10rem;
+}
+
 
