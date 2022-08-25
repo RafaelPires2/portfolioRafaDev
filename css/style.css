@@ -348,5 +348,26 @@
 .cards-skills img{
     width: 10rem;
 }
+/* ============ FOOTER =============== */
+#footer{
+    background-color: var(--background-primary);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .wrapper{
+    border-top: var(--border-bottom);
+    color: var(--color-paragraph);
+    font-size: 2rem;
+    height:10rem;
+    width: 102.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline:1rem;
+
+}
 
 
