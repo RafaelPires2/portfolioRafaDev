@@ -181,7 +181,7 @@
     flex-direction: column;
     justify-content: start;
     width: 30%;
-    min-height: 30rem;
+    min-height: 32rem;
   
     border:1px solid var(--border-one);
     padding: 3.2rem;
@@ -202,7 +202,11 @@
     font-size: 1.8rem;
 }
 .card2{
-    border:1px solid var(--border-two);
+    border:1px solid var(--background-primary);
+}
+.card2:hover{
+    border:1px solid var(--text-point);
+    transition: .4s;
 }
 .card2 h2{
     color: var(--white);
@@ -216,6 +220,7 @@
 .card2 a{
     color: var(--border-two);
     font-size: 1.8rem;
+    visibility: hidden;
 }
 .card3{
     border:1px solid var(--background-secundary);
@@ -242,6 +247,10 @@
     color: var(--text-point);
     font-size: 2rem;
     font-weight: 400;
+}
+.box-txt a:hover{
+    color:#a167ff;
+    text-shadow: 0rem 0rem 4rem #a36aff;   
 }
 /* ============ SERVICES =============== */
 #services{
@@ -338,6 +347,7 @@
 }
 .cards-skills{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 12.25rem;
@@ -347,6 +357,17 @@
 }
 .cards-skills img{
     width: 10rem;
+}
+.title-skill{
+    color: white;
+   
+    width: 12.2rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 1rem;
+    visibility: hidden;
 }
 /* ============ FOOTER =============== */
 #footer{
