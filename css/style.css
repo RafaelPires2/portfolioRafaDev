@@ -43,7 +43,6 @@
 .navigation a:hover{
     color:var(--white);
 }
-
 .logo{
     color:var(--white);
     font-size: 3rem;
@@ -255,7 +254,7 @@
 /* ============ SERVICES =============== */
 #services{
     background-color: var(--background-secundary);
-    height: 60vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,7 +306,7 @@
 
 #skills{
     background-color: var(--background-primary);
-    height: 60vh;
+    height: 80vh;
 
     display: flex;
     justify-content: center;
