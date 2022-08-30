@@ -357,8 +357,9 @@
 .cards-skills img{
     width: 10rem;
 }
-.title-skill{
-    color: white;
+.title-skill-off{
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
    
     width: 12.2rem;
     height: 3rem;
@@ -366,8 +367,20 @@
     align-items: center;
     justify-content: center;
     margin-block: 1rem;
-    visibility: hidden;
+    
 }
+.title-skill-on{
+    color: white;
+    font-size: 1.6rem;
+   
+    width: 12.2rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 1rem;
+}
+
 /* ============ FOOTER =============== */
 #footer{
     background-color: var(--background-primary);

@@ -1,5 +1,7 @@
 const cardSkills = document.querySelectorAll('.cards-skills')
 const description = document.querySelector('.description')
+const titleSkill = document.querySelectorAll('h10')
+
 
 const skills = {
     html:'HTML é uma linguagem baseada em marcação, onde marcamos os elementos para definir quais irnformações a página vai exibir.',
@@ -12,43 +14,11 @@ const skills = {
 cardSkills.forEach(function(cardSkill){
     cardSkill.addEventListener('mouseover', function(){
         description.innerHTML = skills[cardSkill.getAttribute('name')]
+  
     })
-    
+   
     cardSkill.addEventListener('mouseout', function(){
         description.innerHTML = skills.default
+      
     })
 })
-
-//OUTRAS FORMAS DE FAZER A MESMA FUNÇÃO
-// cardSkills.forEach((element, index) => {
-// element.addEventListener('mouseover', function(){
-//     description.innerHTML = skills[index]
-// })
-
-// element.addEventListener('mouseout', function(){
-//     description.innerHTML = skills.default
-// })
-
-// });
-
-
-// for(let i = 0; i < cardSkills.length; i++){
-//     cardSkills[i].addEventListener('mouseover', function(){
-//         description.innerHTML = skills[i]
-//     })
-
-//     cardSkills[i].addEventListener('mouseout', function(){
-//         description.innerHTML = skills.default
-//     })
-// }
-
-
-// cardSkills.forEach(function(cardSkill, index){
-//     cardSkill.addEventListener('mouseover', function(){
-//         description.innerHTML = skills[index]
-//     })
-
-//     cardSkill.addEventListener('mouseout', function(){
-//         description.innerHTML = skills.default
-//     })
-// })

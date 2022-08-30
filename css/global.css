@@ -14,6 +14,9 @@ ul, li, a{
     text-decoration-color: none;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 :root {
     --white:#ffff;
     --background-primary:#080713;
