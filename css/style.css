@@ -353,33 +353,25 @@
     height: 13rem;
     background:var(--background-secundary);
     margin: 0.8rem;
+
+    color: var(--background-secundary);
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 .cards-skills img{
     width: 10rem;
 }
-.title-skill-off{
+.cards-skills:hover{
     color: rgb(255, 255, 255);
-    font-size: 1.6rem;
-   
-    width: 12.2rem;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-block: 1rem;
-    
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: .3s;
+
 }
-.title-skill-on{
-    color: white;
-    font-size: 1.6rem;
-   
-    width: 12.2rem;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-block: 1rem;
+.cards-skills img{
+    width: 10rem;
 }
+
 
 /* ============ FOOTER =============== */
 #footer{
