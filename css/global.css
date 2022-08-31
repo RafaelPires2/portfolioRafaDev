@@ -72,3 +72,23 @@ html{
     
     
 }
+#backTop {
+    position: fixed;
+    bottom: 1rem;
+    right: 2.5rem;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(100%);
+
+
+}
+#backTop.show {
+    opacity: 1;
+    visibility: visible;
+
+    transition: 500ms;
+    transform: translateY(0);
+    
+}
