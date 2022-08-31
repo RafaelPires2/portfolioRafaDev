@@ -59,3 +59,16 @@ html{
     width: 7rem;
     margin-bottom: 3rem;
 }
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: var(--background-primary);
+   
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--text-point);
+    border-radius: 2rem;
+   
+
+    
+    
+}
