@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Saira', sans-serif;
+    background-color: var(--background-primary);
 }
 ul, li, a{
     color: var(--white);

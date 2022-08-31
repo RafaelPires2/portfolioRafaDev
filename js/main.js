@@ -24,13 +24,4 @@ cardSkills.forEach(function(cardSkill){
 })
 
 
-const backTop = document.querySelector("#backTop");
 
-function showBackTop() {
-    if (scrollY < 700) {
-     backTop.classList.remove('show');
-    } else {
-     backTop.classList.add('show');
-    }
-  }
-  console.log(scrollY)

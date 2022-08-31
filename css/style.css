@@ -141,7 +141,8 @@
 }
 #about .icon{
     width: 40rem;
-    transform:scaleX(-1)
+    transform:scaleX(-1);
+    margin-top:3rem;
 }
 /* ============ PROJETOS =============== */
 #projects{
