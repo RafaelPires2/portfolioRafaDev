@@ -63,16 +63,16 @@ html{
 ::-webkit-scrollbar{
     width: 10px;
     background-color: var(--background-primary);
-   
 }
 ::-webkit-scrollbar-thumb{
     background-color: var(--text-point);
-    border-radius: 2rem;
-   
-
-    
-    
+    border-radius: 2rem; 
 }
+body{
+    scrollbar-width: thin;
+    background-color: var(--background-primary);
+}
+
 #backTop {
     position: fixed;
     bottom: 1rem;
