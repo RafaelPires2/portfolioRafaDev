@@ -167,4 +167,12 @@
 .cards-skills{
     width: 45%;
 }
+/* ============ FOOTER =============== */
+#footer .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 }
