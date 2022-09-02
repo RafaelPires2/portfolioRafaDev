@@ -53,9 +53,8 @@
 /* ============ ABOUT =============== */
 
 
-#about{ 
-    margin-bottom: 100rem;
-    height: 100%;
+#about{  
+    height: 80vh;
 }
 #about .wrapper{
    width: 30rem;
@@ -78,6 +77,29 @@
     width: 100%;
    
 }
+/* ============ PROJECTS =============== */
 
+
+#projects{ 
+    margin-bottom: 50rem;
+    height: 100%;
+}
+#projects .wrapper{
+    width: 30rem;
+    padding-inline: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project{
+    width: 90%;
+}
 
 }
