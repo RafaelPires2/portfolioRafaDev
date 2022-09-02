@@ -36,7 +36,7 @@ html{
 .wrapper{
     width: 102.4rem;     
 }
-.btn{
+.btn-instagram{
     background: linear-gradient(225deg, rgba(102,16,242,0.3) 0%, rgba(102,16,242,0) 100%);
     width: 23rem;
     height: 5.8rem;
@@ -92,4 +92,13 @@ body{
     transition: 500ms;
     transform: translateY(0);
     
+}
+.displayNone{
+    display: none;
+}
+.btn-menu{
+    width: 3.5rem;
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
 }

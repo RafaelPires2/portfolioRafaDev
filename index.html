@@ -1,204 +1,223 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/animation.css">
+<link rel="stylesheet" href="./css/global.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/animation.css">
+<link rel="stylesheet" href="./css/menuExpanded.css">
+<link rel="stylesheet" href="./css/btn-menu.css">
+
+<link rel="stylesheet" href="./css/media/media320.css">
 
 
-    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;700&display=swap" rel="stylesheet" />
-    <title>Portfólio Rafa Dev</title>
+<link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;700&display=swap" rel="stylesheet" />
+<title>Portfólio Rafa Dev</title>
 </head>
-<body onscroll="scroll()">
-    <div class="container">
-    
-        <header class="header">
-            <div class="wrapper">
-                <nav class="navigation">
-                    <div class="content-nav">
-                        <a href="#"><h2 class="logo">Rafa Dev</h2></a>
-                        <ul>
-                            <li><a href="#about">Quem sou</a></li>
-                            <li><a href="#projects">Projetos</a></li>
-                            <li><a href="#services">Serviços</a></li>
-                            <li><a href="#skills">Conhecimentos</a></li>
-                        </ul>
-                    </div>
-                </nav>
+<body onscroll="scroll()" class="">
+<div class="container">
 
-            </div>
-
-        </header>
-
-        <section id="home">
-            <div class="wrapper">
-
-                <div class="col-a">
-                    <h2><span class="emoji-hand">👋</span> Olá, eu sou </h2>
-                    <h1>Rafa Dev.</h1>
-                    <div class="box-typing">
-                        <h2><span class="auto-type"></span></h2>
+<header class="header">
+    <div class="wrapper">
         
-
-                    </div>
-                    <a id="btn-instagram"class="btn" href="http://instagram.com" target="_blank">Instagram</a>
-                </div>
-
-                <div class="col-b">
-                    <img class="icon" src="./img/icon/person1.svg" alt="icon person">
-                </div>
-
-            </div>
-                
-        </section>
-
-        <section id="about">
-            <div class="wrapper">
-
-                <div class="col-a">
-                    <img class="icon" src="./img/icon/person2.svg" alt="icon person">
-
-                </div>
-
-                <div class="col-b">
-                    <div>
-                        <h1>Quem Sou <span>.</span></h1>
-                        <h2>Rafael, 28 anos, casado a cinco e pai da Lorena. Sempre tive interesse por programação.
-                             Atualmente Estou aprimorando minhas hard skills como Front-end.
-                             Trabalhei durante 3 anos em dois empregos para construir minha casa,
-                             enquanto aprimorava minhas soft skills.</h2>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section id="projects">
-            <div class="wrapper">
-
-                <div class="box-txt">
-                    <h1>Projetos <span>.</span></h1>
-                </div>
-      
-                 <div class="box-projects">
-                      <div class="project card1">
-                          <h2>Missão Cactus</h2>
-                          <p>Site institucional de ONG base Missionária em Belagua-MA, feito em HTML, CSS e JavaScript.</p>
-                          <a href="#">Visualizar projeto</a>
-                      </div>
-                      <div class="project card2">
-                        <h2>Em Breve</h2>
-                        <p>Pegue o café e espere um pouco, estou desenvolvendo o projeto.</p>
-                        <a href="#">Visualizar projeto</a>
-
-                      </div>
-                      <div class="project card3">
-                        <h2>Em Breve</h2>
-                        <p>Pegue o café e espere um pouco, estou desenvolvendo o projeto.</p>
-                        <a href="#">Visualizar projeto</a>
-                    </div>
-                 </div>
-                 <div class="box-txt">
-                    <a href="https://github.com/RafaelPires2" target="_blank">Repositório no Github</a>
-                </div>
-
-            </div>
-        </section>
-
-        <section id="services">
-            <div class="wrapper">
-
-                <div class="box-txt">
-                    <h1>Serviços <span>.</span></h1>
-                </div>
-      
-                 <div class="box-services">
-                      <div class="services card-serv1">
-                        <div class="box-img">
-                            <img class="icon-services" src="./img/icon/icon-design.svg">                          
-                        </div>
-                        <h2>UI Design</h2>
-                        <p>Desenho interface de forma que ela seja clara, objetiva e principalmente intuitiva para o usuário.</p>
-                      </div>
-                      <div class="services card-serv2">
-                        <div class="box-img">
-                            <img class="icon-services" src="./img/icon/icon-front.svg"> 
-                        </div>
-                        <h2>Desenvolvimento</h2>
-                        <p>Desenvolvo sites profissionais, blogs, portfólios, landing pages e e-commerce.</p>
-                      </div>
-                      <div class="services card-serv3">
-                        <div class="box-img">
-                            <img class="icon-services" src="./img/icon/icon-app-design.svg"> 
-                        </div>
-                        <h2>Motion</h2>
-                        <p>Crio interações que transmitem sensação de modernidade, além de chamarem a atenção do usuário.</p>
-                    </div>
-                 </div>
-                 
-
-            </div>
-        </section>
-
-        <section id="skills">
-            <div class="wrapper">
-
-                <div class="col-a">
-                    <h1>Conhecimentos <span>.</span></h1>
-                    <p class="description">*passe o cursor do mouse no card para ler*</p>
-                </div>
-
-                <div class="col-b">
-                    <div class="box-skills">
-                
-                        <div name="html" class="cards-skills">
-                                <h2>HTML</h2>
-                            <img src="./img/icon/icon-html.svg" alt="">
-                        </div>
-                        <div name="css" class="cards-skills">
-                            <h2>CSS3</h2>
-                            <img src="./img/icon/icon-css.svg" alt="">
-                        </div>
-                        <div name="javascript" class="cards-skills">
-                            <h2>JavaScript</h2>
-                            <img src="./img/icon/icon-js.svg" alt="">
-                        </div>
-                        <div name="sass" class="cards-skills">
-                            <img src="./img/icon/icon-sass.svg">
-                            <h2>SASS</h2>
-                        </div>
-                </div>
-
-            </div>
-        </section>
-
-        <footer id="footer">
-            <div class="wrapper">
-                <small>© 2022 Rafa Dev</small>
-                <small>Powered by Rafa Dev</small>
-            </div>
-
+        
             
-        </footer>
+            
+            <nav class="navigation">
+            
+                <div class="logoNav">
 
-        <a id="backTop" href="#home">
-            <img  src="./img/icon/icon-back-top.png"/>
-        </a>
-   
+                    <a href="#"><h2 class="logo">Rafa Dev</h2></a>
+                    <a onclick="removeMenuExpanded()" id="btnClose" class=""><img class="btn-menu" src="./img/icon/icon-close.png"/></a> 
+                    <a onclick="addMenuExpanded()" id="btnOpen" class=""><img class="btn-menu" src="./img/icon/icon-open.png"/></a>
+                </div>
+                
+                
+                <div class="content-nav">
+
+               
+                <ul class="nav-menu">
+                    <li><a href="#about">Quem sou</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#skills">Conhecimentos</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+
     </div>
 
+</header>
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/typed.js"></script>
-    <script src="./js/scroll.js"></script>
+<section id="home">
+    <div class="wrapper">
+
+        <div class="col-a">
+            <h2><span class="emoji-hand">👋</span> Olá, eu sou </h2>
+            <h1>Rafa Dev.</h1>
+            <div class="box-typing">
+                <h2><span class="auto-type"></span></h2>
+
+
+            </div>
+            <a id="btn-instagram"class="btn-instagram" href="http://instagram.com" target="_blank">Instagram</a>
+        </div>
+
+        <div class="col-b">
+            <img class="icon" src="./img/icon/person1.svg" alt="icon person">
+        </div>
+
+    </div>
+        
+</section>
+
+<section id="about">
+    <div class="wrapper">
+
+        <div class="col-a">
+            <img class="icon" src="./img/icon/person2.svg" alt="icon person">
+
+        </div>
+
+        <div class="col-b">
+            <div>
+                <h1>Quem Sou <span>.</span></h1>
+                <h2>Rafael, 28 anos, casado a cinco e pai da Lorena. Sempre tive interesse por programação.
+                        Atualmente Estou aprimorando minhas hard skills como Front-end.
+                        Trabalhei durante 3 anos em dois empregos para construir minha casa,
+                        enquanto aprimorava minhas soft skills.</h2>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="projects">
+    <div class="wrapper">
+
+        <div class="box-txt">
+            <h1>Projetos <span>.</span></h1>
+        </div>
+
+            <div class="box-projects">
+                <div class="project card1">
+                    <h2>Missão Cactus</h2>
+                    <p>Site institucional de ONG base Missionária em Belagua-MA, feito em HTML, CSS e JavaScript.</p>
+                    <a href="https://rafaelpires2.github.io/MissaoCactus/">Visualizar projeto</a>
+                </div>
+                <div class="project card2">
+                <h2>Em Breve</h2>
+                <p>Pegue o café e espere um pouco, estou desenvolvendo o projeto.</p>
+                <a href="#">Visualizar projeto</a>
+
+                </div>
+                <div class="project card3">
+                <h2>Em Breve</h2>
+                <p>Pegue o café e espere um pouco, estou desenvolvendo o projeto.</p>
+                <a href="#">Visualizar projeto</a>
+            </div>
+            </div>
+            <div class="box-txt">
+            <a href="https://github.com/RafaelPires2" target="_blank">Repositório no Github</a>
+        </div>
+
+    </div>
+</section>
+
+<section id="services">
+    <div class="wrapper">
+
+        <div class="box-txt">
+            <h1>Serviços <span>.</span></h1>
+        </div>
+
+            <div class="box-services">
+                <div class="services card-serv1">
+                <div class="box-img">
+                    <img class="icon-services" src="./img/icon/icon-design.svg">                          
+                </div>
+                <h2>UI Design</h2>
+                <p>Desenho interface de forma que ela seja clara, objetiva e principalmente intuitiva para o usuário.</p>
+                </div>
+                <div class="services card-serv2">
+                <div class="box-img">
+                    <img class="icon-services" src="./img/icon/icon-front.svg"> 
+                </div>
+                <h2>Desenvolvimento</h2>
+                <p>Desenvolvo sites profissionais, blogs, portfólios, landing pages e e-commerce.</p>
+                </div>
+                <div class="services card-serv3">
+                <div class="box-img">
+                    <img class="icon-services" src="./img/icon/icon-app-design.svg"> 
+                </div>
+                <h2>Motion</h2>
+                <p>Crio interações que transmitem sensação de modernidade, além de chamarem a atenção do usuário.</p>
+            </div>
+            </div>
+            
+
+    </div>
+</section>
+
+<section id="skills">
+    <div class="wrapper">
+
+        <div class="col-a">
+            <h1>Conhecimentos <span>.</span></h1>
+            <p class="description">*passe o cursor do mouse no card para ler*</p>
+        </div>
+
+        <div class="col-b">
+            <div class="box-skills">
+        
+                <div name="html" class="cards-skills">
+                        <h2>HTML</h2>
+                    <img src="./img/icon/icon-html.svg" alt="">
+                </div>
+                <div name="css" class="cards-skills">
+                    <h2>CSS3</h2>
+                    <img src="./img/icon/icon-css.svg" alt="">
+                </div>
+                <div name="javascript" class="cards-skills">
+                    <h2>JavaScript</h2>
+                    <img src="./img/icon/icon-js.svg" alt="">
+                </div>
+                <div name="sass" class="cards-skills">
+                    <img src="./img/icon/icon-sass.svg">
+                    <h2>SASS</h2>
+                </div>
+        </div>
+
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="wrapper">
+        <small>© 2022 Rafa Dev</small>
+        <small>Powered by Rafa Dev</small>
+    </div>
+
+    
+</footer>
+
+<a id="backTop" href="#home">
+    <img  src="./img/icon/icon-back-top.png"/>
+</a>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./js/main.js"></script>
+<script src="./js/typed.js"></script>
+<script src="./js/scroll.js"></script>
 </body>
 </html>

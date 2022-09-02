@@ -24,4 +24,20 @@ cardSkills.forEach(function(cardSkill){
 })
 
 
+const btnOpen = document.querySelector('#btnOpen')
+const btnClose = document.querySelector('#btnClose')
+const body = document.querySelector('body')
+const navMenu = document.querySelector('.nav-menu')
 
+function removeMenuExpanded(){
+    body.classList.remove('menuExpanded')
+    btnClose.classList.add('displayNone')
+
+    //navMenu.classList.remove('displayNone')
+}
+function addMenuExpanded(){
+    body.classList.add('menuExpanded')
+    btnClose.classList.remove('displayNone')
+    
+    //navMenu.classList.remove('displayNone')
+}
