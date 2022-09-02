@@ -27,6 +27,7 @@
     z-index: 1000;
     justify-content: space-between;
     padding-inline: .8rem;
+    pointer-events: none;
 }
 
 .navigation ul{
@@ -50,7 +51,9 @@
     color:var(--white);
     font-size: 3rem;
     text-shadow: 0px 0px 30px var(--text-point);
+    
 }
+
 
 /* ============ HOME =============== */
 #home{
