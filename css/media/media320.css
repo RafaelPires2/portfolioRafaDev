@@ -80,8 +80,7 @@
 /* ============ PROJECTS =============== */
 
 
-#projects{ 
-    margin-bottom: 50rem;
+#projects{  
     height: 100%;
 }
 #projects .wrapper{
@@ -101,5 +100,31 @@
 .project{
     width: 90%;
 }
+
+/* ============ SERVICES =============== */
+
+
+#services{ 
+    margin-bottom: 50rem;
+    height: 100%;
+}
+#services .wrapper{
+    width: 30rem;
+    padding-inline: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services{
+    width: 90%;
+}
+
 
 }
