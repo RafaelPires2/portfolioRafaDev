@@ -125,6 +125,46 @@
 .services{
     width: 90%;
 }
-
-
+/* ============ SKILLS =============== */
+#skills{
+    margin-bottom: 5rem;
+    height: 100%;
+}
+#skills .wrapper{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#skills .col-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#skills .box-txt{
+    width: 30rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.description{
+    width: 30rem;
+    margin-bottom: 5rem;
+}
+#skills .col-a h1{
+   font-size: 3.5rem;
+}
+#skills .col-b{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-skills{
+    width: 32rem;
+    margin-inline: auto;
+}
+.cards-skills{
+    width: 45%;
+}
 }
