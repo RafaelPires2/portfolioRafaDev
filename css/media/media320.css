@@ -4,44 +4,42 @@
 
 /* ============ GERAL =============== */
 .wrapper{
-    width: 32rem;
-    padding-inline: 2rem;
+
+    width: 30rem;
+    padding-inline: 1rem;
 }
+
 .icon{
     display: none;
-}
+} 
     
+
+.navigation .nav-menu{
+   visibility: hidden;
+   opacity: 0;
+
+}
 /* ============ HEADER =============== */
-.content-nav{
-    display: none;
+.logo{
+    position: fixed;
+    top: 2rem;
+    right: 16rem;
 }
 
 /* ============ HOME =============== */
-
-
 #home{
+    height: 90vh;    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 20rem;
-   
 }
-#home .wrapper{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
+
 #home .col-a{
     width: 100%;
     height: 100%;
 }
-
 #home .col-a h2{
     font-size: 2rem;
-    
 }
 #home .col-a h1{
     font-size: 4rem;
@@ -49,28 +47,37 @@
 }
 #btn-instagram{
     margin-top: 4rem;
-    margin-bottom: 5rem;
-}
-.btn-instagram{
-    width: 23rem;
-    height: 4.8rem;
-    
-    
+    margin-inline: auto;
 }
 
+/* ============ ABOUT =============== */
 
 
-
-
+#about{ 
+    margin-bottom: 100rem;
+    height: 100%;
+}
 #about .wrapper{
-    height: 90vh;
-    display: flex;
+   width: 30rem;
+   padding-inline: 1rem;
+
+   display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 #about .col-b{
-    margin-top: 10rem;
+    width: 100%;
+}
+#about .col-b h2{
+    font-size: 1.4rem;
+    width: 100%;
    
 }
+#about .col-b h1{
+    font-size: 4rem;
+    width: 100%;
+   
+}
+
+
 }

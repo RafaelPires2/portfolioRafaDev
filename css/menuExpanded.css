@@ -2,20 +2,29 @@
 body.menuExpanded {
     overflow: hidden;
 }
+body.menuExpanded #header{
+    width: 100vw;
+    background-color: red;
+}
 body.menuExpanded .logoNav{
-    
+    width: 100vw;
     border-bottom: var(--border-bottom);
     background: rgba(10,10,25,0.7);
     backdrop-filter: blur(24px);
 
-    width: 100vw;
+    width: 20rem;
     height: 8.1rem;
-    position:absolute;
+    position:fixed;
     z-index: 1000;
-
-    
 }
-
+body.menuExpanded .logo{
+    width: 15rem;
+}
+body.menuExpanded .navigation .nav-menu{
+    visibility: visible;
+    opacity: 1;
+ 
+ }
 body.menuExpanded .content-nav{
 
     background-color: var(--background-primary);
@@ -37,7 +46,7 @@ body.menuExpanded .content-nav{
     
 
 body.menuExpanded .nav-menu{
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -49,6 +58,9 @@ body.menuExpanded .nav-menu a{
 #btnClose{
     display: none;
 }
+#btnOpen{
+    z-index: 2000;
+}
 body.menuExpanded #btnClose{
     position: absolute;
     right: 0rem;
@@ -58,6 +70,6 @@ body.menuExpanded #btnClose{
 }
 body.menuExpanded #btnOpen{
     display: none;
-    z-index: 1000;
+    z-index: 1001;
 
 }

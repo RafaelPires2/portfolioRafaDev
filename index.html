@@ -22,26 +22,23 @@
 <body onscroll="scroll()" class="">
 <div class="container">
 
-<header class="header">
+<header id="header" class="header">
     <div class="wrapper">
-        
-        
-            
-            
+      
             <nav class="navigation">
             
-                <div class="logoNav">
+                
 
-                    <a href="#"><h2 class="logo">Rafa Dev</h2></a>
-                    <a onclick="removeMenuExpanded()" id="btnClose" class="displayNone"><img class="btn-menu" src="./img/icon/icon-close.png"/></a> 
-                    <a onclick="addMenuExpanded()" id="btnOpen" class="displayNone"><img class="btn-menu" src="./img/icon/icon-open.png"/></a>
-                </div>
+                <a onclick="removeMenuExpanded()" id="btnClose" class=""><img class="btn-menu" src="./img/icon/icon-close.png"/></a> 
+                <a onclick="addMenuExpanded()" id="btnOpen" class=""><img class="btn-menu" src="./img/icon/icon-open.png"/></a>
+                
                 
                 
                 <div class="content-nav">
-
-               
-                <ul class="nav-menu">
+                    
+                    <a href="#"><h2 class="logo">Rafa Dev</h2></a>
+                    
+                    <ul id="nav-menu" class="nav-menu">
                     <li><a href="#about">Quem sou</a></li>
                     <li><a href="#projects">Projetos</a></li>
                     <li><a href="#services">Serviços</a></li>
@@ -86,7 +83,7 @@
         </div>
 
         <div class="col-b">
-            <div>
+            <div class="box-txt">
                 <h1>Quem Sou <span>.</span></h1>
                 <h2>Rafael, 28 anos, casado a cinco e pai da Lorena. Sempre tive interesse por programação.
                         Atualmente Estou aprimorando minhas hard skills como Front-end.
@@ -169,7 +166,9 @@
     <div class="wrapper">
 
         <div class="col-a">
-            <h1>Conhecimentos <span>.</span></h1>
+            <div class="box-txt">
+                <h1>Conhecimentos <span>.</span></h1>
+            </div>
             <p class="description">*passe o cursor do mouse no card para ler*</p>
         </div>
 

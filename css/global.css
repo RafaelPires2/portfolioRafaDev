@@ -98,7 +98,8 @@ body{
 }
 .btn-menu{
     width: 3.5rem;
-    position: absolute;
+    position: fixed;
     top: 2.5rem;
     right: 2rem;
+    z-index: 9999;
 }

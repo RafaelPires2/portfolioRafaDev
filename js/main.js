@@ -33,11 +33,11 @@ function removeMenuExpanded(){
     body.classList.remove('menuExpanded')
     btnClose.classList.add('displayNone')
 
-    //navMenu.classList.remove('displayNone')
+    navMenu.classList.remove('displayNone')
 }
 function addMenuExpanded(){
     body.classList.add('menuExpanded')
     btnClose.classList.remove('displayNone')
     
-    //navMenu.classList.remove('displayNone')
+    navMenu.classList.remove('displayNone')
 }
