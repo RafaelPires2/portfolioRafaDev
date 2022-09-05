@@ -1,0 +1,63 @@
+@media screen and (min-width: 375px) and (max-width: 1023px){
+
+
+
+    /* ============ GERAL =============== */
+    .wrapper{
+    
+        width: 42.5rem;
+        
+    }
+    
+    /* ============ HEADER =============== */
+    .logo{
+        right: 25rem;
+    }
+    #home .col-a h2{
+        font-size:4.5rem;
+    }
+    #home .col-a h1{
+        font-size: 6.5rem;
+     
+    }
+    /* ============ ABOUT =============== */
+    
+    #about .wrapper {
+      width: 42.5rem;
+      padding-inline: 2rem;
+     
+    }
+    #about .col-b h2{
+        font-size: 1.8rem;  
+        
+    }
+    #about .col-b h1{
+        font-size: 4.5rem;
+        text-align: center;
+       
+    }
+    
+    /* ============ PROJECTS =============== */
+    
+    
+    #projects .wrapper {
+        width: 42.5rem;
+      }
+    .project{
+        width: 80%;
+        min-height: 20rem;
+    }
+     /* ============ SERVICES =============== */
+    
+    
+     #services .wrapper {
+        width: 42.5rem;
+      }
+      /* ============ SERVICES =============== */
+    
+    
+     #skills .wrapper {
+        width: 42.5rem;
+      }
+    
+    }
