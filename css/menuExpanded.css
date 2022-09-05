@@ -14,31 +14,30 @@ body.menuExpanded .logo{
 body.menuExpanded .navigation .nav-menu{
     visibility: visible;
     opacity: 1;
- 
+   
+
  }
 body.menuExpanded .content-nav{
     background-color: var(--background-primary);
     position: fixed;
     width: 100vw;
     height: 100vh;
-
-    padding-bottom: 15rem;
     
-    justify-content:center;
+   
     transition: 0.5s ease;
     z-index: 1001;
+
 }    
 
 body.menuExpanded .nav-menu{
-    display: block;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10rem;  
+   
 }
 body.menuExpanded .nav-menu a{
     font-size: 2.4rem;
     line-height: 5rem; 
+    
 }
 #btnClose{
     display: none;

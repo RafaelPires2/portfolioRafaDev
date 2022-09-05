@@ -49,6 +49,19 @@ html{
     cursor:pointer;
     
 }
+.btn-contatos-menu{
+    background: linear-gradient(225deg, rgba(102,16,242,0.3) 0%, rgba(102,16,242,0) 100%);
+    width: 23rem;
+    height: 5.8rem;
+    border: 0.5px solid var(--text-point);
+
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    font-size: 1.8rem;
+    cursor:pointer;
+    
+}
 .btn:hover{
     transition: .5s;
     transform: scalex(1.1);

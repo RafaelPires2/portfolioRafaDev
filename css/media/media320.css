@@ -5,194 +5,218 @@
 /* ============ GERAL =============== */
 .wrapper{
 
-    width: 30rem;
-    padding-inline: 1rem;
+width: 30rem;
+padding-inline: 1rem;
 }
 
 .icon{
-    display: none;
+display: none;
 } 
-    
+
 
 .navigation .nav-menu{
-   visibility: hidden;
-   opacity: 0;
+visibility: hidden;
+opacity: 0;
+
 
 }
 /* ============ HEADER =============== */
 .logo{
-    position: fixed;
-    top: 2rem;
-    left: 2rem;
+position: fixed;
+top: 2rem;
+left: 2rem;
 
 }
-body.menuExpanded .nav-box{
-    width: 100vw;
-    height: 8.1rem;
-    
-    border-bottom: var(--border-bottom);
-    background: rgba(10,10,25,0.7);
-    backdrop-filter: blur(24px);
-    
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
+body.menuExpanded .navigation a{
+   
+padding: 0;
 }
+body.menuExpanded .nav-box{
+width: 100vw;
+height: 8.1rem;
+
+border-bottom: var(--border-bottom);
+background: rgba(10,10,25,0.7);
+backdrop-filter: blur(24px);
+
+position: fixed;
+top: 0;
+left: 0;
+z-index: 9999;
+}
+
+body.menuExpanded .nav-menu .btn-contatos-menu{
+display: initial;
+
+background: linear-gradient(225deg,
+rgba(102,16,242,0.3) 0%,
+rgba(102,16,242,0) 100%);
+width: 23rem;
+height: 5.8rem;
+border: 0.5px solid var(--text-point);
+
+display: flex;
+font-size: 1.8rem;
+padding: 0;
+
+}
+
+
+
 /* ============ HOME =============== */
 #home{
-    height: 90vh;    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+height: 90vh;    
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 #home .col-a{
-    width: 100%;
-    height: 100%;
-    margin-inline: auto;
-    justify-content: center;
-    align-items: center;
+width: 100%;
+height: 100%;
+margin-inline: auto;
+justify-content: center;
+align-items: center;
 }
 #home .col-a h2{
-    font-size:3rem;
+font-size:3rem;
 }
 #home .col-a h1{
-    font-size: 4rem;
- 
+font-size: 4rem;
+
 }
 #btn-contatos{
-    margin-top: 4rem;
-    
+margin-top: 4rem;
+
 }
 
 /* ============ ABOUT =============== */
 
 
 #about{  
-    height: 80vh;
+height: 80vh;
 }
 #about .wrapper{
-   width: 30rem;
-   padding-inline: 1rem;
+width: 30rem;
+padding-inline: 1rem;
 
-   display: flex;
-    flex-direction: column;
-    justify-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 #about .col-b{
-    width: 100%;
-    margin: 0;
+width: 100%;
+margin: 0;
 }
 #about .col-b h2{
-    font-size: 1.6rem;
-    width: 100%;
-   
+font-size: 1.6rem;
+width: 100%;
+
 }
 #about .col-b h1{
-    font-size: 4rem;
-    width: 100%;
-   
+font-size: 4rem;
+width: 100%;
+
 }
 /* ============ PROJECTS =============== */
 
 
 #projects{  
-    height: 100%;
+height: 100%;
 }
 #projects .wrapper{
-    width: 30rem;
-    padding-inline: 1rem;
+width: 30rem;
+padding-inline: 1rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 .box-projects{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .project{
-    width: 90%;
-    padding: 2rem;
-    min-height: 20rem;
+width: 90%;
+padding: 2rem;
+min-height: 20rem;
 }
 
 /* ============ SERVICES =============== */
 
 
 #services{ 
-    
-    height: 100%;
+
+height: 100%;
 }
 #services .wrapper{
-    width: 30rem;
-    padding-inline: 1rem;
+width: 30rem;
+padding-inline: 1rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 .box-services{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .services{
-    width: 90%;
-    min-height: 20rem;
+width: 90%;
+min-height: 20rem;
 }
 /* ============ SKILLS =============== */
 #skills{
-    margin-bottom: 5rem;
-    height: 100%;
+margin-bottom: 5rem;
+height: 100%;
 }
 #skills .wrapper{
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 #skills .col-a{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 #skills .box-txt{
-    width: 30rem;
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
+width: 30rem;
+margin-bottom: 2rem;
+display: flex;
+justify-content: center;
 }
 .description{
-    width: 30rem;
-    margin-bottom: 5rem;
+width: 30rem;
+margin-bottom: 5rem;
 }
 #skills .col-a h1{
-   font-size: 3.5rem;
+font-size: 3.5rem;
 }
 #skills .col-b{
-    display: flex;
-    flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
 }
 .box-skills{
-    width: 32rem;
-    margin-inline: auto;
+width: 32rem;
+margin-inline: auto;
 }
 .cards-skills{
-    width: 45%;
+width: 45%;
 }
 /* ============ FOOTER =============== */
 #footer .wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 }
