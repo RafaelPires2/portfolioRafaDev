@@ -40,12 +40,18 @@
     color:var(--white);
 }
 .logo{
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
     width: 15rem;
     color:var(--white);
     font-size: 3rem;
     text-shadow: 0px 0px 30px var(--text-point);
-    
+
+    z-index: 9999;
+
 }
+
 
 
 /* ============ HOME =============== */

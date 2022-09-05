@@ -25,8 +25,7 @@ body.menuExpanded .content-nav{
     justify-content:center;
     transition: 0.5s ease;
     z-index: 1001;
-}
-    
+}    
 
 body.menuExpanded .nav-menu{
     display: block;
@@ -43,13 +42,13 @@ body.menuExpanded .nav-menu a{
     display: none;
 }
 #btnOpen{
-    z-index: 2000;
+    z-index: 9999;
 }
 body.menuExpanded #btnClose{
     position: absolute;
     right: 0rem;
     top: 0;
-    z-index: 1000;
+    z-index: 9999;
     display: initial;
 }
 body.menuExpanded #btnOpen{

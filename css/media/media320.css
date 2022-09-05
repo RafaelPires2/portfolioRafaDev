@@ -24,7 +24,6 @@
     position: fixed;
     top: 2rem;
     left: 2rem;
-    z-index: 9999;
 
 }
 body.menuExpanded .nav-box{
