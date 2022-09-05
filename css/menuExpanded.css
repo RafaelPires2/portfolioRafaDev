@@ -18,9 +18,10 @@ body.menuExpanded .navigation .nav-menu{
  }
 body.menuExpanded .content-nav{
     background-color: var(--background-primary);
-    position: absolute;
+    position: fixed;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
+    
     justify-content:center;
     transition: 0.5s ease;
     z-index: 1001;
