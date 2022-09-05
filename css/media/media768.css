@@ -7,7 +7,7 @@
 width: 60rem;
 }
 .box-txt h1{
-    font-size: 5rem;
+font-size: 5rem;
 }
 /* ============ HEADER =============== */
 
@@ -47,9 +47,15 @@ width: 40%;
 min-height: 25rem;
 }
 .box-projects{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+/* ============ MENU EXPANDED =============== */
+
+body.menuExpanded .nav-menu a {
+font-size: 3rem;
 }
 /* ============ SERVICES =============== */
 
@@ -58,13 +64,13 @@ min-height: 25rem;
 width: 60rem;
 }
 .box-services{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
 .services{
-    width: 45%;
-    min-height: 25rem;
+width: 45%;
+min-height: 25rem;
 }
 /* ============ SKILLS =============== */
 
@@ -75,15 +81,15 @@ width: 60rem;
 font-size: 5rem;
 }
 #skills .box-txt{
-    width: 50rem;
+width: 50rem;
 }
 
 /* ============ FOOTER =============== */
 #footer .wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
 }
 
 
