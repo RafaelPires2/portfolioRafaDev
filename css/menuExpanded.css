@@ -21,6 +21,8 @@ body.menuExpanded .content-nav{
     position: fixed;
     width: 100vw;
     height: 100vh;
+
+    padding-bottom: 15rem;
     
     justify-content:center;
     transition: 0.5s ease;
