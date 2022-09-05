@@ -9,16 +9,10 @@ width: 42.5rem;
 
 }
 
-/* ============ MENU EXPANDED =============== */
-
-body.menuExpanded .nav-menu a {
-font-size: 2.8rem;
-}
 /* ============ HEADER =============== */
 
 #home .col-a h2{
 font-size:4.5rem;
-color: white;
 }
 #home .col-a h1{
 font-size: 6.5rem;
