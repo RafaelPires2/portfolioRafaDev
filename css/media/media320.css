@@ -118,6 +118,7 @@ body.menuExpanded .nav-box{
 .project{
     width: 90%;
     padding: 2rem;
+    min-height: 20rem;
 }
 
 /* ============ SERVICES =============== */
@@ -143,6 +144,7 @@ body.menuExpanded .nav-box{
 }
 .services{
     width: 90%;
+    min-height: 20rem;
 }
 /* ============ SKILLS =============== */
 #skills{

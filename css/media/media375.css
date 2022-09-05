@@ -40,9 +40,13 @@
 /* ============ PROJECTS =============== */
 
 
-#about .wrapper {
+#projects .wrapper {
     width: 37.5rem;
-   
   }
+.project{
+    width: 80%;
+    min-height: 20rem;
+}
+
 
 }
