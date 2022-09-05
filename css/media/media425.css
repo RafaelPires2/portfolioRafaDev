@@ -10,9 +10,7 @@
     }
     
     /* ============ HEADER =============== */
-    .logo{
-        right: 25rem;
-    }
+    
     #home .col-a h2{
         font-size:4.5rem;
     }
@@ -24,29 +22,17 @@
     
     #about .wrapper {
       width: 42.5rem;
-      padding-inline: 2rem;
+     
      
     }
-    #about .col-b h2{
-        font-size: 1.8rem;  
-        
-    }
-    #about .col-b h1{
-        font-size: 4.5rem;
-        text-align: center;
-       
-    }
-    
+   
     /* ============ PROJECTS =============== */
     
     
     #projects .wrapper {
         width: 42.5rem;
       }
-    .project{
-        width: 80%;
-        min-height: 20rem;
-    }
+    
      /* ============ SERVICES =============== */
     
     

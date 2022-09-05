@@ -23,7 +23,7 @@
 .logo{
     position: fixed;
     top: 2rem;
-    right: 16rem;
+    left: 2rem;
     z-index: 9999;
 
 }

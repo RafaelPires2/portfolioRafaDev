@@ -1,0 +1,91 @@
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+
+
+/* ============ GERAL =============== */
+.wrapper{
+width: 60rem;
+}
+.box-txt h1{
+    font-size: 5rem;
+}
+/* ============ HEADER =============== */
+
+#home .col-a h2{
+font-size:4.5rem;
+}
+#home .col-a h1{
+font-size: 6.5rem;
+
+}
+/* ============ ABOUT =============== */
+
+#about .wrapper {
+width: 60rem;
+padding-inline: 2rem;
+
+}
+#about .col-b h2{
+font-size: 2rem;  
+
+}
+#about .col-b h1{
+font-size: 5rem;
+text-align: center;
+
+}
+
+/* ============ PROJECTS =============== */
+
+
+#projects .wrapper {
+width: 70rem;
+
+}
+.project{
+width: 40%;
+min-height: 25rem;
+}
+.box-projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* ============ SERVICES =============== */
+
+
+#services .wrapper {
+width: 60rem;
+}
+.box-services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.services{
+    width: 45%;
+    min-height: 25rem;
+}
+/* ============ SKILLS =============== */
+
+#skills .wrapper {
+width: 60rem;
+}
+#skills .col-a h1{
+font-size: 5rem;
+}
+#skills .box-txt{
+    width: 50rem;
+}
+
+/* ============ FOOTER =============== */
+#footer .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+}
