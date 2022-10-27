@@ -207,8 +207,11 @@
     color: var(--border-one);
     font-size: 1.8rem;
 }
+.card1:hover{
+    border:1px solid var(--text-point);
+}
 .card2{
-    border:1px solid var(--background-primary);
+    border:1px solid var(--border-two);
 }
 .card2:hover{
     border:1px solid var(--text-point);
@@ -226,7 +229,7 @@
 .card2 a{
     color: var(--border-two);
     font-size: 1.8rem;
-    visibility: hidden;
+   
 }
 .card3{
     border:1px solid var(--background-secundary);
