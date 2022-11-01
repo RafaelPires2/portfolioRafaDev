@@ -8,6 +8,8 @@ const skills = {
     css:'CSS é uma linguagem de folhas de estilo composta por "camadas", criado com o propósito de estilizar as páginas HTML.',
     javascript:'JavaScript é uma linguaguem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.',
     sass:'Sass (pré-processador css) é uma linguagem de folhas de estilo. É uma simples linguagem de script usada em arquivos Sass.',
+    reactjs:'O ReactJS é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.',
+    git: 'Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.',
     default:'*passe o cursor do mouse no card para ler*'
 }
 
