@@ -109,6 +109,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 12rem;
+    
 }
 #about .wrapper{
     display: flex;
@@ -232,10 +234,10 @@
    
 }
 .card3{
-    border:1px solid var(--background-secundary);
+    border:1px solid var(--text-point);
 }
 .card3:hover{
-    border:1px solid var(--text-point);
+    border:1px solid var(--border-one);
     transition: .4s;
 }
 .card3 h2{
@@ -250,7 +252,7 @@
 .card3 a{
     color: var(--border-two);
     font-size: 1.8rem;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 .box-txt a{
     color: var(--text-point);
