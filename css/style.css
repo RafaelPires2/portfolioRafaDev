@@ -104,7 +104,7 @@
 /* ============ QUEM SOU =============== */
 #about{
     background-color: var(--background-secundary);
-    height: 60vh;
+    height: 100%;
 
     display: flex;
     justify-content: center;
@@ -123,6 +123,8 @@
     justify-content: center;
     margin-left: 2rem;
     width: 60%;
+    height: 100%;
+    margin-bottom: 2rem;
 }
 #about .col-b{
     display: flex;
@@ -154,7 +156,7 @@
 /* ============ PROJETOS =============== */
 #projects{
     background-color: var(--background-primary);
-    height: 80vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
